@@ -1,0 +1,27 @@
+
+
+<div>
+    <h1 style="height: 1rem;background-color: blue;"></h1>
+    <div class="container-fluid px-5 py-3">
+        <table class="table table-borderless table-hover container-fluid">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Nationality</th>
+                    <th>Batting</th>
+                    <th>Bowling</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="player in NewPlayers">
+                <tr>
+                    <td>{{player.firstname | uppercase}}</td>
+                    <td>{{player.lastname | uppercase}}</td>
+                    <td>{{player.nationality}}</td>
+                    <td>{{player.batting}}</td>
+                    <td>{{player.bowling}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
