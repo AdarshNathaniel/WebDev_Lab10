@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+</head>
+<body style="text-align: center; background-color: brown; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <h1 style="color:bisque">WebSite</h1><br
+    <form method='post' action='/submit'>
+        <div style="background-color: bisque; width: 30%;">
+            <h1>Insert Values</h1>
+        Name: <input type="text" name="name" /><br>
+        Age: <input type="number" name="age" /><br><br>
+        <button type='submit'>Click</button><br>
+        </div>
+   </form>
+   <form method='post' action='/update'>
+
+        <div style="background-color: bisque; width: 30%;">
+            <h1>Update Age</h1>
+            Enter your name: <input type="text" name="al_name" /><br>
+            Edit the Age:    <input type="number" name="al_value"/><br><br>
+            <button type='submit'>Click</button><br>
+        </div>
+   </form>
+   <form method='post' action='/delete'>
+
+    <div style="background-color: bisque; width: 30%;">
+        <h1>Delete Record</h1>
+        Enter your name: <input type="text" name="del_name" /><br><br>
+        <button type='submit'>Click</button><br>
+    </div>
+    </form>
+    <form method='post' action='/search'>
+
+    <div style="background-color: bisque; width: 30%;">
+        <h1>Search Record</h1>
+        Enter your name: <input type="text" name="sea_name" /><br><br>
+        <button type='submit'>Click</button><br>
+    </div>
+    </form>
+    <form method='post' action='/display'>
+
+    <div>
+        <h1 style="color:bisque;">Click here to display all the records</h1><br>
+        <button type='submit'>Click</button><br>
+    </div>
+    </form>
+</body>
+</html>
